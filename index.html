@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Social Website</title>
+    <script src="https://kit.fontawesome.com/e90c021517.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------ Navbar ----------------->
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo2.png" alt="logo"></a>
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-profile-pic online" id="profile-setting">
+                <img src="images/Profile-Anonymous.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Setting Menu  -->
+
+        <div class="setting-menu">
+            <div class="setting-menu-inner">
+                <div id="change-btn">
+                    <span></span>
+                </div>
+                <div class="user-profile">
+                    <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                    <div>
+                        <p>Anonymous Boy</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./images/feedback.png" alt="profile">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">help us to improve the design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" alt="" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" alt="" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" alt="" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!------------ Main Content Container ----------------->
+
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-link">
+                <a href="#"><img src="images/news.png" alt="">News</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="">Market Place</a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-link">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Recent Played</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Saved Videos</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Recent Activities</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Your Browse</a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Johana</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Caduel</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Alisa</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Light</p>
+                </div>
+            </div>
+
+                                <!---------- Main Gallery Content  -------------------->  
+
+            <div class="write-post-container">
+
+                <div class="user-profile">
+                    <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                    <div>
+                        <p>Anonymous Boy</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea name="" id=""  rows="3" placeholder="what's on your mind Anonymous"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+                                    <!-- First post  -->
+
+            <div class="write-post-container post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                        <div>
+                            <p>Anonymous Boy</p>
+                            <span>February 18 2023, 13:27  PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">This is my First Social-Website to by using HTMl CSS and Basic JavaScript basically UI Design <a href="#"> #Bikash</a> <a href="#">Scripting Videos</a> </p>
+                <img src="images/feed-image-1.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png" alt=""> 120</div>
+                        <div><img src="images/comments.png" alt=""> 40</div>
+                        <div><img src="images/share.png" alt=""> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile-Anonymous.jpg" alt=""> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            
+                            <!-- Second post  -->
+
+            <div class="write-post-container post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                        <div>
+                            <p>Anonymous Boy</p>
+                            <span>February 20 2023, 14:27  PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">This is the second post of the website making more realistic as facebook <span>@Bikash shaw</span> <a href="#"> #Bikash</a> <a href="#">Scripting Videos</a> </p>
+                <img src="images/feed-image-2.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png" alt=""> 320</div>
+                        <div><img src="images/comments.png" alt=""> 60</div>
+                        <div><img src="images/share.png" alt=""> 26</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile-Anonymous.png" alt=""> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            
+                                <!-- Third post  -->
+
+            <div class="write-post-container post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                        <div>
+                            <p>Anonymous Boy</p>
+                            <span>February 18 2023, 13:27  PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">This is my First Social-Website to by using HTMl CSS and Basic JavaScript basically UI Design <a href="#"> #Bikash</a> <a href="#">Scripting Videos</a> </p>
+                <img src="images/feed-image-3.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png" alt=""> 220</div>
+                        <div><img src="images/comments.png" alt=""> 80</div>
+                        <div><img src="images/share.png" alt=""> 10</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile-Anonymous.jpg" alt=""> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+                            <!-- Fourth post  -->
+
+            <div class="write-post-container post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                        <div>
+                            <p>Anonymous Boy</p>
+                            <span>February 22 2023, 11:27  AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">This is my First Social-Website to by using HTMl CSS and Basic JavaScript basically UI Design <a href="#"> #Bikash</a> <a href="#">Scripting Videos</a> </p>
+                <img src="images/feed-image-4.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png" alt=""> 304</div>
+                        <div><img src="images/comments.png" alt=""> 43</div>
+                        <div><img src="images/share.png" alt=""> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile-Anonymous.jpg" alt=""> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Fifth post  -->
+                         
+            <div class="write-post-container post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                        <div>
+                            <p>Anonymous Boy</p>
+                            <span>February 24 2023, 16:27  PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">This is my First Social-Website to by using HTMl CSS and Basic JavaScript basically UI Design <a href="#"> #Bikash</a> <a href="#">Scripting Videos</a> </p>
+                <img src="images/feed-image-5.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png" alt=""> 620</div>
+                        <div><img src="images/comments.png" alt=""> 40</div>
+                        <div><img src="images/share.png" alt=""> 45</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile-Anonymous.jpg" alt=""> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Sixth post  -->
+
+            <div class="write-post-container post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                        <div>
+                            <p>Anonymous Boy</p>
+                            <span>February 24 2023, 16:27  PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">This is my First Social-Website to by using HTMl CSS and Basic JavaScript basically UI Design <a href="#"> #Bikash</a> <a href="#">Scripting Videos</a> </p>
+                <!-- <img src="images/feed-image-5.png" alt="" class="post-img"> -->
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png" alt=""> 120</div>
+                        <div><img src="images/comments.png" alt=""> 30</div>
+                        <div><img src="images/share.png" alt=""> 5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile-Anonymous.jpg" alt=""> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------- Video Content -->
+
+            <div class="write-post-container post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/Profile-Anonymous.jpg" alt="profile">
+                        <div>
+                            <p>Anonymous Boy</p>
+                            <span>March 3 2023, 16:27  PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">This is my First Social-Website to by using HTMl CSS and Basic JavaScript basically UI Design <a href="#"> #Bikash</a> <a href="#">Scripting Videos</a> </p>
+                <div class="play-pause">
+                    <video controls>
+                        <source src="images/video.mp4">
+                        Your Browser Doesnot Support Video
+                    </video>
+                    <!-- <div class="play"><img src="images/pause.png" alt=""></div> -->
+                </div>
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png" alt=""> 416</div>
+                        <div><img src="images/comments.png" alt=""> 49</div>
+                        <div><img src="images/share.png" alt=""> 46</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile-Anonymous.jpg" alt=""> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+ 
+            <button type="button" class="load-more-button">Load More</button>
+
+        </div>
+
+
+        <!--------------------------- Right Content ----------------------------->
+
+        <div class="right-sidebar">
+            <div class="Sidebar-title">
+                <h4>Events</h4>
+                <a href="#">View All</a>
+            </div>
+            <div class="events">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>January</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Sarsuna at Cornet Street</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="events">
+                <div class="left-event">
+                    <h3>13</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Sarsuna at Open Street</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="Sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" alt="" class="ads-img">
+
+            <div class="Sidebar-title">
+                <h4>Coversation</h4>
+                <a href="#">Hide</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt=""> 
+                </div>
+                <p>Johana Rodes</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt=""> 
+                </div>
+                <p>Caduel Mones</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt=""> 
+                </div>
+                <p>Alisa Naz</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png" alt=""> 
+                </div>
+                <p>Light Boy</p>
+            </div>
+        </div>
+    </div>
+
+            <!-- Footer Section  -->
+    <footer class="footer">
+        <p>Copyright 2022 - Bikash Kumar Shaw</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
